@@ -37,7 +37,7 @@ public class Aluno {
         return nota1;
     }
 
-    public void setNota1(int nota1) {
+    public void setNota1(double nota1) {
         this.nota1 = nota1;
         calculaMedia();
     }
@@ -46,7 +46,7 @@ public class Aluno {
         return nota2;
     }
 
-    public void setNota2(int nota2) {
+    public void setNota2(double nota2) {
         this.nota2 = nota2;
         calculaMedia();
     }
