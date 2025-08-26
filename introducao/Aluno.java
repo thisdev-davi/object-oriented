@@ -58,6 +58,6 @@ public class Aluno {
     @Override
     public String toString(){
         return "Nome: " + this.nome + ", Matricula: " + this.matricula +
-        "Nota1: " + this.nota1 + ", Nota2: " + this.nota2 + ", Media: " + this.media;
+        ", Nota1: " + this.nota1 + ", Nota2: " + this.nota2 + ", Media: " + this.media;
     }
 }
