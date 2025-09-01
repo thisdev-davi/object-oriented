@@ -17,15 +17,15 @@ public class PilhaInt {
         return this.stack.size();
     }
 
-    public Integer top(){
+    public int top(){
         return this.stack.getFirst();
     }
 
-    public void push(Integer element){
-        this.stack.addFirst(element);
+    public void push(int num){
+        this.stack.addFirst(num);
     }
 
-    public Integer pop(){
+    public int pop(){
         return this.stack.removeFirst();
     }
 }
