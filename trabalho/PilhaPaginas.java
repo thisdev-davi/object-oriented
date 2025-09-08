@@ -9,6 +9,10 @@ public class PilhaPaginas {
         this.stack = new LinkedList<>();
     }
 
+    public int size(){
+        return this.stack.size();
+    }
+    
     public void push(Pagina novaPagina){
         this.stack.addFirst(novaPagina);
     }
