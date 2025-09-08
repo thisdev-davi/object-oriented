@@ -4,8 +4,8 @@ public class Pagina {
     private String url, titulo;
 
     public Pagina(String url, String titulo){
-        this.url = url;
-        this.titulo = titulo;
+        this.url = formatUrl(url);
+        this.titulo = formatTitulo(titulo);
     }
 
     public void setUrl(String url){
@@ -15,7 +15,14 @@ public class Pagina {
     public String getUrl() {
         return url;
     }
-
+    
+    private String formatTitulo(String titulo){
+    	return titulo.substring(0, 1).toUpperCase() + titulo.substring(1);
+    }
+    
+    private String formatUrl(String url){
+    	return "www." + url.toLowerCase() + ".com";
+    }
     public String getTitulo() {
         return titulo;
     }
@@ -26,9 +33,6 @@ public class Pagina {
 
     @Override
     public String toString() {
-        return "Pagina{" +
-                "url='" + url + '\'' +
-                ", titulo='" + titulo + '\'' +
-                '}';
+        return "Url: " + url + "\nTitulo: " + titulo;
     }
 }
