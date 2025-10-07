@@ -1,7 +1,7 @@
 package reutilizacao;
 
 public class Automovel {
-	private static final int NUME_MAX_PRESTACOES = 24;
+	private static final int NUMMAXPRESTACOES = 24;
 	
 	public static final int GASOLINA = 1;
 	public static final int FLEX = 2;
@@ -39,8 +39,8 @@ public class Automovel {
 		this.cor = cor;
 	}
 
-	public int getNumeMaxPrestacoes() {
-		return NUME_MAX_PRESTACOES;
+	public int getNumMaxPrestacoes() {
+		return NUMMAXPRESTACOES;
 	}
 	
 	@Override
