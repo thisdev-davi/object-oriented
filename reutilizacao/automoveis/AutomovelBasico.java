@@ -1,4 +1,4 @@
-package reutilizacao;
+package reutilizacao.automoveis;
 
 public class AutomovelBasico extends Automovel {
 	private boolean retrevisorDoPassageiro, limpadorTraseiro, radioFm;
