@@ -1,4 +1,4 @@
-package reutilizacao;
+package reutilizacao.automoveis;
 
 public class AutomovelDeLuxo extends AutomovelBasico{
 	private boolean direcaoHidraulica, cambioAutomatico, vidroETravaEletrica;
