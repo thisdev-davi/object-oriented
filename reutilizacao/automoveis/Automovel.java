@@ -1,4 +1,4 @@
-package reutilizacao;
+package reutilizacao.automoveis;
 
 public class Automovel {
 	private static final int NUMMAXPRESTACOES = 24;
