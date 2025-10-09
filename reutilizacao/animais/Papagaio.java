@@ -5,10 +5,12 @@ public class Papagaio extends Animal {
 		super(nome, raca);
 	}
 	
+	@Override
 	public String caminha() {
 		return super.getNome() + " está voando.";
 	}
 	
+	@Override
 	public String comunica() {
 		return "loro loro";
 	}
